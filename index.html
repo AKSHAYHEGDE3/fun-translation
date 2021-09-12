@@ -16,15 +16,18 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="container">
     <div class="heading">
     <h1>translation App</h1>
   </div>
     <div class="container">
-      <section >
+      <section>
         <textarea id="text_input"
         placeholder="type your sentences here"></textarea>
+        <div id="btns">
         <button id="btn-1" value="https://api.funtranslations.com/translate/minion.json">Banana Talk</button>
         <button id="btn-2" value="https://api.funtranslations.com/translate/yoda.json">Yoda Talk</button>
+      </div>
     <div id="output">translated text</div>
   
       </section>
@@ -47,7 +50,7 @@
         </p>
       </div>
     </div>
-
+  </div>
       <script src="./app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
